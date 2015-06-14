@@ -8,7 +8,7 @@ class Work extends Model
 {
 	public function getNarjad()
 		{
-			$a = '5';
+			$a = '6';
 
 			return $a;
 		}		 
