@@ -1,0 +1,66 @@
+body {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF33', endColorstr='#FFFF33'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#FFFF33), to(#FFFF33)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #FFFF33,  #FFFF33); /* for firefox 3.6+ */ 
+background: -o-linear-gradient(top,  #FFFF33,  #FFFF33); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #FFFF33,  #FFFF33); /* IE10+ */
+margin: 0; padding: 0
+}
+body { margin: 3; padding: 3}
+
+button {
+background: #2E8CE3;
+padding: 7px 30px;
+font-size: 16px;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+border: solid 1px #73C8F0;
+cursor: pointer;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background: -moz-linear-gradient(0% 100% 90deg, #2E8CE3, #73C2FD);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73C2FD), 
+to(#2E8CE3));
+box-shadow: inset 0 1px 0 0 #FFFFFF;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+border-bottom: 1px solid rgba(0,0,0,0.25); 
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+	
+button:hover { 
+background: #2E69E3; 
+background: -moz-linear-gradient(0% 100% 90deg, #2E69E3, #59C2FF);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#59C2FF), 
+to(#2E69E3));
+}
+
+button:active {
+background: #2E69E3; 
+background: -moz-linear-gradient(0% 100% 90deg, #2E69E3, #59C2FF);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#59C2FF), 
+to(#2E69E3));
+box-shadow: inset 1px 1px 0 0 #004A7F;
+-moz-box-shadow: inset 1px 1px 0 0 #004A7F;
+-webkit-box-shadow: inset 1px 1px 0 0 #004A7F;
+padding: 8px 29px 6px 31px;
+}
+
+scrollup {
+position: fixed; /* фиксированная позиция */
+opacity: 0.8; /* прозрачность */
+padding: 15px 10px 10px; /* отступы */
+background: #aaa;
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: none; /* спрятать блок */
+cursor: pointer;
+}
+p.l {
+    line-height: 1.5;
+   }

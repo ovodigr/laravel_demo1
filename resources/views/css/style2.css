@@ -1,0 +1,21 @@
+.div {
+
+ 
+width: document.body.scrollWidth;
+border-top: 3px solid F08080;
+border-right: 3px  solid F08080;
+border-bottom: 3px solid F08080;
+border-left: 3px solid  F08080;
+
+
+
+
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF00', endColorstr='#00FF00'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#00FF00)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #FFFF00,  #00FF00); /* for firefox 3.6+ */ 
+background: -o-linear-gradient(top,  #FFFF00,  #00FF00); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #FFFF00,  #00FF00); /* IE10+ */
+margin: 0; padding: 10
+}
+body { margin: 0; padding: 0}
