@@ -1,5 +1,5 @@
 @extends('work')
 @section('content')
-Наряд
+Наряд2 
 {{ $result }}
 @stop

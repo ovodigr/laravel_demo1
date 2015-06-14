@@ -8,8 +8,8 @@ class Work extends Model
 {
 	public function getNarjad()
 		{
-			$a = '1';
+			$a = '2';
 
 			return $a;
-		}		
+		}		 
 }
