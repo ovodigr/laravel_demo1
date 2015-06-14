@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d86063e8a2cd93e29c8bda8f2b310066",
+    "hash": "e7853401845f12935e7b53927e86766c",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -65,6 +65,61 @@
                 "preload"
             ],
             "time": "2015-05-26 10:57:51"
+        },
+        {
+            "name": "curl/curl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-mod/curl.git",
+                "reference": "67f7c490060751fbf24a02bc1ff3b32073aeb5e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-mod/curl/zipball/67f7c490060751fbf24a02bc1ff3b32073aeb5e0",
+                "reference": "67f7c490060751fbf24a02bc1ff3b32073aeb5e0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Curl": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hassan Amouhzi",
+                    "email": "hassan@anezi.net",
+                    "homepage": "http://hassan.amouhzi.com"
+                },
+                {
+                    "name": "php-curl-class",
+                    "homepage": "https://github.com/php-curl-class"
+                },
+                {
+                    "name": "user52",
+                    "homepage": "https://github.com/user52"
+                }
+            ],
+            "description": "cURL class for PHP",
+            "homepage": "https://github.com/php-mod/curl",
+            "keywords": [
+                "curl",
+                "dot"
+            ],
+            "time": "2015-04-09 16:29:25"
         },
         {
             "name": "danielstjules/stringy",
@@ -2979,7 +3034,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "curl/curl": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
