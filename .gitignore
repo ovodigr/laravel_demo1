@@ -1,6 +1,8 @@
+.gitignore
 /vendor
 /node_modules
 .env
 *.txt
 g
-.gitignore
+*.gitignore
+g2
